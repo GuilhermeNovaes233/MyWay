@@ -60,4 +60,8 @@ Rodar API
     dotnet run
   ```
   
- 
+ Postman
+    Você deve usar o Postman ou lago outro para fazer requisições a api 
+    
+    
+    
