@@ -1,14 +1,5 @@
 # MyWay - Sistema de Cadastro e Pesquisa de eventos
 
-## Configuração do Projeto
-
-Para rodar o projeto é necessário ter instalado a ferramenta Angular CLI no seu computador.
-
-Abra o cmd na pasta raiz e execute o seguinte comando 
-```
-npm i @angular/cli
-
-```
 ## Estrutura do Projeto
 
 O projeto esta divido em 3 camadas:
