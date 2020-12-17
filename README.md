@@ -1,8 +1,19 @@
 # MyWay - Sistema de Cadastro e Pesquisa de eventos
 
+
+## Configuração do Projeto
+
+Para rodar o projeto é necessário ter instalado a ferramenta Angular CLI no seu computador.
+
+Abra o cmd na pasta raiz e execute o seguinte comando 
+```
+npm i @angular/cli
+
+```
+
 ## Estrutura do Projeto
 
-O projeto esta divido em 3 camadas:
+O projeto esta divido em 4 camadas:
 
   1. Camada da API
       Contém as controllers e os objetos de transferência de dados(DTOs)
@@ -13,12 +24,11 @@ O projeto esta divido em 3 camadas:
       Contém todas as entidades(Parece com uma Model) e regras de negócio do projeto --> Por conter as regras de negócio, deve ser a camada mais segura
       
   3. Camada de Repositório(Repository)
-      Faz as consultas ao banco 
+      Faz as consultas ao banco
       
-Antigamente o MVC era o padrão mais usado no desenovolvimento de software, porém surgiu a necessidade de separar o projeto em várias partes com responsabilidades exclusivas. 
-
-
-
+  4. Camada do Aplicativo Angular
+      Parte de front que faz as chamadas da api
+      
 ## Banco de dados
 
   Atualmente salvei os dados em um SqlLite, mais simples e mais de boas de usar. 
