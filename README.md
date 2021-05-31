@@ -57,7 +57,7 @@ O projeto esta divido em 4 camadas:
 
 Rodar API
   ```
-    cd Intuitive.Api
+    cd MyWay.Api
     dotnet run
   ```
   
