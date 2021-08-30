@@ -49,7 +49,7 @@ O projeto esta divido em 4 camadas:
     Agora digite
     
      ```
-      dotnet ef --startup-project ..\MyWay.API\ update database 
+      dotnet ef --startup-project ..\MyWay.API\ database update
     
      ```
      
